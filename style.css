@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rakkas&display=swap');
+.logo{
+    font-family: "Rakkas", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 140px;
+    color: #f1f1f1;
+    text-align: center;
+    margin: 10px;
+}
+body{
+    background-color: #124;
+    height: 100vh;
+}
+body::selection{
+    background-color: blueviolet;
+}
+header{
+    background-color: #111;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 3px solid #f1f1f1;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.videos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    gap: 20px;
+}
+iframe{
+    cursor: pointer;
+    border-radius: 10px;
+}
+@media (min-width: 360px) and (max-width: 767px) {
+    .logo{
+        font-size: 95px;
+    }
+    .videos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        gap: 20px;
+    }
+    iframe{
+        width: 300px;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .logo{
+        font-size: 120px;
+    }
+    .videos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        gap: 20px;
+    }
+    iframe{
+        width: 400px;
+    }
+}
+h2{
+    font-family: "Rakkas", serif;
+    color:hsl(0, 0%, 100%);
+    font-size:60px;
+    text-align: center;
+    
+}
+
