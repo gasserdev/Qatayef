@@ -11,6 +11,8 @@
 body{
     background-color: #124;
     height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 body::selection{
     background-color: blueviolet;
