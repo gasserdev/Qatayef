@@ -32,10 +32,12 @@ header{
     align-items: center;
     margin: 10px;
     gap: 20px;
+    flex-grow: 1;
 }
 iframe{
     cursor: pointer;
     border-radius: 10px;
+    flex-grow: 1;
 }
 @media (min-width: 360px) and (max-width: 767px) {
     .logo{
