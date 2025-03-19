@@ -33,7 +33,6 @@ header{
     align-items: center;
     margin: 10px;
     gap: 20px;
-    flex-grow: 1;
 }
 iframe{
     cursor: pointer;
