@@ -52,6 +52,9 @@ iframe{
     iframe{
         width: 300px;
     }
+    h2{
+        font-size: 40px;
+    }
 }
 @media (min-width: 1024px) and (max-width: 1279px) {
     .logo{
