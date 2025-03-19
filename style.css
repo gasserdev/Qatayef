@@ -39,6 +39,11 @@ iframe{
     border-radius: 10px;
     flex-grow: 1;
 }
+h2{
+    font-size: 40px;
+    color: #f1f1f1;
+    text-align: center;
+}
 @media (min-width: 360px) and (max-width: 767px) {
     .logo{
         font-size: 95px;
@@ -74,6 +79,7 @@ iframe{
         width: 400px;
     }
 }
+
 
 
 
