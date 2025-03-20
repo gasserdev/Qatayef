@@ -61,7 +61,7 @@ h2{
     border-bottom: 1px solid transparent;
     border-radius: 50%;
     animation: spin 1s linear infinite;
-    margin: 10px auto;
+    margin: 22px auto;
 }
 
 @keyframes spin {
