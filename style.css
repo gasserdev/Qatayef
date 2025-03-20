@@ -7,9 +7,10 @@
     color: #f1f1f1;
     text-align: center;
     margin: 10px;
+    text-shadow: 1px 1px  blueviolet, 2px 2px  blueviolet, 3px 3px  blueviolet, 4px 4px  blueviolet, 5px 5px  blueviolet, 6px 6px  blueviolet, 7px 7px  blueviolet, 8px 8px  blueviolet, 9px 9px  blueviolet, 10px 10px  blueviolet;
 }
 body{
-    background-color: #124;
+    background-color: rgb(15, 29, 57);
     height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
@@ -36,16 +37,40 @@ header{
     align-items: center;
     margin: 10px;
     gap: 20px;
+    flex-direction: row;
 }
 iframe{
     cursor: pointer;
     border-radius: 10px;
+    border: 3px solid blueviolet;
+    box-shadow:1px 1px  white, 2px 2px  white,-1px -1px  white,-2px -2px  white;
 }
 h2{
     font-size: 40px;
     color: #f1f1f1;
     text-align: center;
     font-family: "Rakkas", serif;
+}
+
+.loader {
+    width: 70px;
+    height: 70px;
+    border-top: 5px solid blueviolet;
+    border-right: 1px solid transparent;
+    border-left:  1px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 10px auto;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 @media (min-width: 360px) and (max-width: 767px) {
     .logo{
