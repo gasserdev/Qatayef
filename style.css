@@ -46,7 +46,7 @@ header{
     align-items: center;
     margin: 10px;
     gap: 20px;
-    flex-direction: row;
+    flex-direction: row-reverse;
     margin: 0 auto;
 }
 iframe{
@@ -74,7 +74,7 @@ h2{
     border-bottom: 1px solid transparent;
     border-radius: 50%;
     animation: spin 1s linear infinite;
-    margin: 22px auto;
+    margin: 40px auto;
 }
 .s{
     font-size: 50px;
